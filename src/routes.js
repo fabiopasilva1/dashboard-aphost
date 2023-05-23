@@ -7,5 +7,9 @@ const routes = [
     path: "/",
     element: <RouteRestrict />,
   },
+  {
+    path: "/:slug",
+    element: <RouteRestrict />,
+  },
 ];
 export default routes;
